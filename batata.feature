@@ -7,7 +7,7 @@ Funcionalidade: Pesquisar Batata
 Contexto:
      Dado que o usuário esteja na tela inicial do google
 
-    Cenário: Pesquisa
+    Cenário: Pesquisar
       Quando realizar a pesquisa do termo "batata"
        E selecionar a categoria imagens
        E selecionar a primeira imagem
