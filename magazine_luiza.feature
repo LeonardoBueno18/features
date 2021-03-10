@@ -7,7 +7,7 @@ Funcionalidade: Pesquisar produto magazine
     no site da loja Magazine Luiza
 
 Contexto:
-     Dado o acesso ao site "https://www.magazineluiza.com.br/"
+     Dado que esteja na home do site "https://www.magazineluiza.com.br/"
 
     Cenário: Pesquisar Produto e adicionar no carrinho
       Quando pesquisar "computador" no campo de busca
