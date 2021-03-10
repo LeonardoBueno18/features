@@ -11,5 +11,5 @@ Contexto:
     Cenário: Pesquisa Produto
       Quando pesquisar "Cafeteira" no campo de busca
       E selecionar a primeira opção na categoria "Produtos Sugeridos"
-      Então é mostrada a página com detalhes do produto
+      Então deverá ser apresentada a página com detalhes do produto
   
