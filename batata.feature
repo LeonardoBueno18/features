@@ -2,7 +2,7 @@
 @FixaçãoBatata
 Funcionalidade: Pesquisar Batata
     A fim de encontrar uma imagem
-    é realidada uma pesquisa do termo "batata"
+    é realizada uma pesquisa do termo "batata"
     no google imagens
 
 Contexto:
