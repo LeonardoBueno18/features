@@ -12,6 +12,6 @@ Contexto:
     Cenário: Pesquisa Produto e adiciona no carrinho
       Quando pesquisar "computador" no campo de busca
       E selecionar a primeira opção
-      Então é mostrada a página com detalhes do produto
+      Então deverá ser apresentada a página com detalhes do produto
       Quando selecionar a opção "adicionar à sacola"
-      Então o produto é adicionado ao carrinho de compras
+      Então deverá adicionar produto no carrinho de compras
