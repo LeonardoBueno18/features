@@ -1,4 +1,4 @@
-#pt
+#language : pt
 @FixaçãoSubmarino
 Funcionalidade: Pesquisar produto submarino
     A fim de encontrar um produto 
