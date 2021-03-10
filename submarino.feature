@@ -8,7 +8,7 @@ Funcionalidade: Pesquisar produto submarino
 Contexto:
      Dado o acesso ao site "https://www.submarino.com.br/"
 
-    Cenário: Pesquisa Produto
+    Cenário: Pesquisar Produto
       Quando pesquisar "Cafeteira" no campo de busca
       E selecionar a primeira opção na categoria "Produtos Sugeridos"
       Então deverá ser apresentada a página com detalhes do produto
