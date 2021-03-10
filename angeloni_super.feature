@@ -1,4 +1,4 @@
-#pt
+#language : pt
 @FixaçãoAngeloni_super
 Funcionalidade: Acessar produto
     A fim de encontrar um produto
