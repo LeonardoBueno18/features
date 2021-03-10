@@ -11,6 +11,6 @@ Contexto:
     Cenário: Primeiro Produto
       Quando expandir a aba "Departamentos"
       E selecionar a primeira categoria
-      Então é mostrada a página de produtos
-      Quando selecionado o primeiro produto
-      Então é mostrada a página de informações do produto
+      Então deverá ser apresentada a página de produtos
+      Quando selecionar o primeiro produto
+      Então deverá ser apresentada página de informações do produto
