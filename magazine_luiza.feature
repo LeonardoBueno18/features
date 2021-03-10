@@ -9,7 +9,7 @@ Funcionalidade: Pesquisar produto magazine
 Contexto:
      Dado o acesso ao site "https://www.magazineluiza.com.br/"
 
-    Cenário: Pesquisa Produto e adiciona no carrinho
+    Cenário: Pesquisar Produto e adicionar no carrinho
       Quando pesquisar "computador" no campo de busca
       E selecionar a primeira opção
       Então deverá ser apresentada a página com detalhes do produto
