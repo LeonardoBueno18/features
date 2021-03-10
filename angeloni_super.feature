@@ -8,7 +8,7 @@ Funcionalidade: Acessar produto
 Contexto:
      Dado o acesso ao site "https://www.angeloni.com.br/super"
 
-    Cenário: Primeiro Produto
+    Cenário: Acessar o Primeiro Produto
       Quando expandir a aba "Departamentos"
       E selecionar a primeira categoria
       Então deverá ser apresentada a página de produtos
