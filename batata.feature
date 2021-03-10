@@ -1,4 +1,4 @@
-#language: pt
+#language : pt
 @FixaçãoBatata
 Funcionalidade: Pesquisar Batata
     A fim de realizar uma pesquisa no google
