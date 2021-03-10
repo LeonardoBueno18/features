@@ -11,4 +11,4 @@ Contexto:
       Quando realizar a pesquisa do termo "batata"
        E selecionar a categoria imagens
        E selecionar a primeira imagem
-       Então é mostrada uma imagem de Batata
+       Então deverá ser apresentada uma imagem de Batata
