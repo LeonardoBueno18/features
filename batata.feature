@@ -1,14 +1,14 @@
 #language: pt
 @FixaçãoBatata
 Funcionalidade: Pesquisar Batata
-    A fim de realizar uma pesquisa no google
-    o usuário vai pesquisar o termo "batata"
+    A fim de encontrar uma imagem
+    é realidada uma pesquisa do termo "batata"
+    no google imagens
 
 Contexto:
-     Dado que o usuário esteja na tela inicial do google 
+     Dado que esteja na home do google imagens
 
     Cenário: Pesquisa
       Quando realizar a pesquisa do termo "batata"
-       E selecionar a categoria imagens
        E selecionar a primeira imagem
        Então é mostrada uma imagem de Batata
