@@ -2,11 +2,11 @@
 @FixaçãoAngeloni_super
 Funcionalidade: Acessar produto
     A fim de encontrar um produto
-    Em uma categoria especifica
+    na primeira categoria
     é realizado o acesso a Angeloni Super
 
 Contexto:
-     Dado o acesso ao site "https://www.angeloni.com.br/super"
+     Dado que esteja na home do site "https://www.angeloni.com.br/super"
 
     Cenário: Acessar o Primeiro Produto
       Quando expandir a aba "Departamentos"
