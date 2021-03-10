@@ -1,4 +1,4 @@
-#pt
+#language : pt
 @FixaçãoMagazine_luiza
 Funcionalidade: Pesquisar produto magazine
     A fim de encontrar um produto 
