@@ -5,7 +5,7 @@ Funcionalidade: Pesquisar Batata
     o usuário vai pesquisar o termo "batata"
 
 Contexto:
-     Dado que o usuário esteja na tela inicial do google
+     Dado que o usuário esteja na tela inicial do google 
 
     Cenário: Pesquisa
       Quando realizar a pesquisa do termo "batata"
