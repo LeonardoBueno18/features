@@ -1,15 +1,19 @@
-#pt
-@FixaçãoSubmarino
-Funcionalidade: Pesquisar produto submarino
+#language : pt
+@FixaçãoSubmarino @busca @produto
+Funcionalidade: Busca
     A fim de encontrar um produto 
-    é realizada uma pesquisa por "Cafeteira"
-    no site da loja Submarino
+    é realizada uma busca
+    na loja Submarino
 
 Contexto:
-     Dado o acesso ao site "https://www.submarino.com.br/"
+    Dado que esteja na home
 
-    Cenário: Pesquisa Produto
-      Quando pesquisar "Cafeteira" no campo de busca
-      E selecionar a primeira opção na categoria "Produtos Sugeridos"
-      Então é mostrada a página com detalhes do produto
+    Esquema do Cenário: Buscar produto
+      Quando pesquisar <termo>
+      E selecionar o primeiro produto
+      Então deverá mostrar os detalhes do produto
+      
+      Exemplos: 
+          | termo     |
+          | cafeteira |
   
