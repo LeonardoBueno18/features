@@ -14,5 +14,5 @@ Contexto:
        Então deverá exibir <erro>
 
        Exemplo:
-            | erro                       |
+            |            erro            |
             | Dados cadastrais inválidos |

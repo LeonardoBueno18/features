@@ -14,5 +14,5 @@ Contexto:
        Então deverá exibir o <erro>
 
        Exemplo: 
-           | erro                                         |
+           |                   erro                       |
            | Senha ou e-mail incorretos! Tente novamente. |
