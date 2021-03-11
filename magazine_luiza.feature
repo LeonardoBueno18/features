@@ -1,17 +1,20 @@
 #pt
-@FixaçãoMagazine_luiza
-Funcionalidade: Pesquisar produto magazine
+@FixaçãoMagazine_luiza @carrinho @adicionar
+Funcionalidade: Carrinho
     A fim de encontrar um produto 
     e adiciona-lo no carrinho de compras
     é realizada uma pesquisa por "computador"
     no site da loja Magazine Luiza
 
 Contexto:
-     Dado o acesso ao site "https://www.magazineluiza.com.br/"
+    Dado que esteja na home
 
-    Cenário: Pesquisa Produto e adiciona no carrinho
-      Quando pesquisar "computador" no campo de busca
-      E selecionar a primeira opção
-      Então é mostrada a página com detalhes do produto
-      Quando selecionar a opção "adicionar à sacola"
-      Então o produto é adicionado ao carrinho de compras
+    Esquema do Cenário: Adicionar produto ao carrinho pela busca
+      Quando pesquisar <termo>
+      E selecionar o primeiro produto
+      E adicionar produto ao carrinho
+      Então o produto deverá ser adicionado ao carrinho
+
+      Exemplos:
+          | termo      |
+          | computador |
