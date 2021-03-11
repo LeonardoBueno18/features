@@ -1,4 +1,5 @@
 #language : pt
+<<<<<<< HEAD
 @FixaçãoAngeloni_super
 Funcionalidade: Acessar produto
     A fim de encontrar um produto
@@ -14,3 +15,16 @@ Contexto:
       Então deverá ser apresentada a página de produtos
       Quando selecionar o primeiro produto
       Então deverá ser apresentada página de informações do produto
+=======
+@FixaçãoAngeloni_super @listar @departamento
+Funcionalidade: Listar
+
+Contexto:
+    Dado que esteja na home
+
+    Cenário: Selecionar produto pelo departamento
+       Quando selecionar o primeiro departamento
+       E selecionar o primeiro produto
+       Então deverá mostrar os detalhes do produto
+     
+>>>>>>> Angeloni_Super
