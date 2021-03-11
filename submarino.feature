@@ -1,6 +1,6 @@
 #language : pt
 @FixaçãoSubmarino @busca @produto
-Funcionalidade: Busca
+Funcionalidade: Listar
     A fim de encontrar um produto 
     é realizada uma busca
     na loja Submarino
