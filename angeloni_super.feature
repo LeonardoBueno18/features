@@ -1,16 +1,12 @@
-#pt
-@FixaçãoAngeloni_super
-Funcionalidade: Acessar produto
-    A fim de encontrar um produto
-    Em uma categoria especifica
-    é realizado o acesso a Angeloni Super
+#language : pt
+@FixaçãoAngeloni_super @listar @departamento
+Funcionalidade: Listar
 
 Contexto:
-     Dado o acesso ao site "https://www.angeloni.com.br/super"
+    Dado que esteja na home
 
-    Cenário: Primeiro Produto
-      Quando expandir a aba "Departamentos"
-      E selecionar a primeira categoria
-      Então é mostrada a página de produtos
-      Quando selecionado o primeiro produto
-      Então é mostrada a página de informações do produto
+    Cenário: Selecionar produto pelo departamento
+       Quando selecionar o primeiro departamento
+       E selecionar o primeiro produto
+       Então deverá mostrar os detalhes do produto
+     
