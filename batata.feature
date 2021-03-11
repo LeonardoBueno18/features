@@ -1,14 +1,18 @@
-#language: pt
-@FixaçãoBatata
-Funcionalidade: Pesquisar Batata
+#language : pt
+@FixaçãoBatata @busca @imagem
+Funcionalidade: Busca
     A fim de encontrar uma imagem
-    é realizada uma pesquisa do termo "batata"
-    no google imagens
+    é realizada uma busca
 
 Contexto:
-     Dado que esteja na home do google imagens
+     Dado que esteja na home
 
-    Cenário: Pesquisa
-      Quando realizar a pesquisa do termo "batata"
-       E selecionar a primeira imagem
-       Então é mostrada uma imagem de Batata
+    Esquema do Cenário: Realizar Busca de imagem
+      Quando realizar a pesquisa do <termo>
+      E selecionar imagens
+      E selecionar o primeiro resultado
+      Então deverá mostrar as informações da imagem
+
+      Exemplos:
+           |termo   |
+           |batata  |
