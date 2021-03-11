@@ -1,4 +1,4 @@
-#pt
+#language : pt
 @FixaçãoMagazine_luiza @carrinho @adicionar
 Funcionalidade: Carrinho
     A fim de encontrar um produto 
