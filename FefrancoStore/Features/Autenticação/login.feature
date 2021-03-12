@@ -1,5 +1,5 @@
 #language : pt
-@login @usuario 
+@usuario @login  
 Funcionalidade: Autenticação
 
 Contexto:
