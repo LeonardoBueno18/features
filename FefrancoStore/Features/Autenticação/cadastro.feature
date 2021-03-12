@@ -13,6 +13,6 @@ Contexto:
        Quando preencher o cadastro com dados inválidos
        Então deverá exibir <erro>
 
-       Exemplo:
-            |            erro            |
-            | Dados cadastrais inválidos |
+       Exemplos:
+            |            erro             |
+            | Dados cadastrais inválidos! |

@@ -14,6 +14,6 @@ Contexto:
        Quando preencher o cadastro com dados inválidos
        Então deverá exibir <erro>
 
-       Exemplo:
+       Exemplos:
             |           erro           |
             | Endereço não encontrado! |

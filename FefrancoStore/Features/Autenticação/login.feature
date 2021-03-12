@@ -13,6 +13,6 @@ Contexto:
        Quando realizar login com um usuario não cadastrado
        Então deverá exibir o <erro>
 
-       Exemplo: 
+       Exemplos: 
            |                   erro                       |
            | Senha ou e-mail incorretos! Tente novamente. |
